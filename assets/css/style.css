@@ -29,13 +29,14 @@ h1 {
     font-size: 40px;;
 }
 
-#title h3 {
+h3 {
     font-size: 18px;
+    color: grey;
+    font-weight: 400;
 }
 
 .credits {
     color: grey;
-    font-weight: 400;
 }
 
 .credits a {
@@ -96,3 +97,35 @@ th {
  .tr-lightblue {
     background-color: #00ffff;
  }
+
+ /* Related */
+
+#related {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.related_article {
+    display: block;
+    height: 220px;
+}
+
+.title_related {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.monitor {
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: content;
+}
+
+.graph {
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;    
+    background-size: content;
+}
