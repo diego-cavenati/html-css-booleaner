@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/* header with logo */
 header {
     height: 170px;
     background-color: #4ea0ff;
@@ -16,3 +17,42 @@ header {
     top: 100px;
     left: 10px;
 }
+
+/* titolo e main photo */
+#title {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+h1 {
+    font-size: 45px;;
+}
+
+#title h3 {
+    font-size: 16px;
+}
+
+.credits {
+    color: grey;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #4ea0ff;
+}
+
+#date {
+    font-size: 12px;
+}
+
+#main_photo {
+    position: relative;
+    top: 10px;
+}
+
+.credits_photo {
+    font-size: 8px;
+    display: block;
+}
+
