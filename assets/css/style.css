@@ -18,7 +18,7 @@ header {
     left: 10px;
 }
 
-/* titolo e main photo */
+/* title and main photo */
 #title {
     position: relative;
     top: 10px;
@@ -26,15 +26,16 @@ header {
 }
 
 h1 {
-    font-size: 45px;;
+    font-size: 40px;;
 }
 
 #title h3 {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .credits {
     color: grey;
+    font-weight: 400;
 }
 
 .credits a {
@@ -43,16 +44,55 @@ h1 {
 }
 
 #date {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #main_photo {
-    position: relative;
-    top: 10px;
+    margin-top: 10px;
 }
 
 .credits_photo {
-    font-size: 8px;
+    font-size: 12px;
     display: block;
 }
 
+/* article */
+#article {
+    margin-left: 10px;
+}
+
+p {
+    margin-top: 20px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+ul {
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+#tabella {
+    margin-top: 20px;
+    border: 0px;
+    border-spacing: 0px;
+}
+
+thead {
+    color: white;
+    background-color: #4ea0ff;
+}
+
+th {
+    text-align: left;
+}
+
+ td:last-child {
+    width: 50%;
+ }
+
+ .tr-lightblue {
+    background-color: #00ffff;
+ }
